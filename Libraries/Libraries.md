@@ -20,6 +20,8 @@ Each library should have the following defined:
 
 4.  Known/encountered bugs. These should not be a subset of github reported issues but issues we've encountered during libraries' usage.
 
+*Note:* If not for Swift, the library should have an *[Objective-C]* mark by its name.
+
 ## Categories
 
 * [Animation](Animation.md)

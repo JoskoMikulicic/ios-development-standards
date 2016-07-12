@@ -5,3 +5,9 @@
 * Categories: Reactive programming.
 
 * Known/encountered bugs: none.
+
+## [RxSwift](https://github.com/ReactiveX/RxSwift)
+
+* Categories: Reactive programming.
+
+* Known/encountered bugs: none.

@@ -18,4 +18,4 @@
 
 * Categories: Animation.
 
-* Known/encountered bugs: *very rarelt causes strange crash.
+* Known/encountered bugs: **been known to cause strange crashes every now and then**.
