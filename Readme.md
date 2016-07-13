@@ -415,15 +415,15 @@ In order to insure our apps work as expected we will cover business logic with u
 Every unit test should have following structure:
 
 ```
-  func testThatItDoesURLEncoding() {
-      // Given
-      NSString *searchQuery = @“$&?@”;
-      HTTPRequest *request = [HTTPRequest requestWithURL:@“/search?q=%@”, searchQuery];
+func testClamp() {
+    // Given
+    let floatValue = Float(-1.0)
 
-      // When
-      NSString *encodedURL = request.URL;
+    // When
+    let clampedFloatValue: Float = Math.clamp(floatValue, between: 0.0, and: 1.0)
 
-      // Then
-      XCAssertEqualObjects(encodedURL, @“/search?q=%24%26%3F%40”);
-  }
+    // Then
+    XCTAssertEqual(clampedFloatValue, 0, "Clamped value should always be " +
+                                         "higher or equal to the lower bound.")
+}
 ```
